@@ -1,0 +1,7 @@
+pymongo
+pydantic
+Flask
+requests
+gunicorn
+dnspython
+pytest
