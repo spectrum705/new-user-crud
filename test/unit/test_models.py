@@ -142,7 +142,7 @@ def test_delete_user():
 
     user_data=    {
                 "query":"email",
-                "value": email
+                "value": "emailupdated@waynecorp.com"
                 }
     req = requests.post(url+"/delete", json=user_data)
     content = req.json()
