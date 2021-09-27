@@ -1,4 +1,4 @@
-from os import environ
+import os
 from flask import Flask
 from crud.helper import Database
 
